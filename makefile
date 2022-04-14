@@ -20,4 +20,4 @@ $(OBJECTS_SERVER):my_server.c
 
 .PHONY: clean all
 clean:
-	rm -f *.o  *.a *.so main server
+	rm -f *.o  *.a *.so main server client
